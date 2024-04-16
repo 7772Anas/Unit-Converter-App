@@ -5,13 +5,17 @@
     android:id="@+id/Enter"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg_grd"
     tools:context=".MainActivity">
+
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Enter Conversion"
+        android:text="𝗨𝗻𝗶𝘁 𝗖𝗼𝗻𝘃𝗲𝗿𝘁𝗲𝗿 : \n 𝗦𝗶𝗺𝗽𝗹𝗶𝗳𝘆 𝗖𝗼𝗻𝘃𝗲𝗿𝘀𝗶𝗼𝗻𝘀 \n  𝘄𝗶𝘁𝗵 𝗘𝗮𝘀𝗲"
+        android:textAlignment="center"
+        android:textColor="@color/white"
         android:textSize="28sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,9 +28,11 @@
         android:id="@+id/Enter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/btn_color_bg"
         android:onClick="openActivity"
         android:text="Enter"
-        android:textSize="26sp"
+        android:textColor="@drawable/button_text_color"
+        android:textSize="20sp"
         app:iconSize="28dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
